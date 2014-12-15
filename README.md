@@ -3,11 +3,17 @@ TestFilesystem
 
 test Filesystem code
 
+
 此工具能很容易的测试文件系统的性能，以多进程并发的方式读和写文件，支持大文件和小文件读写，结果以命令行的方式输出，方便总结结果。目前版本支持linux和windows版本。
+
 1.windows系统上：
+
 	需要安装QtCreator软件，用于编译此工具。
+	
 2.在linux系统上：
-	同样需要安装QtCreator软件，用于编译此工具，QT工具需要在GCC 4.7版本之上运行，所以需要升级GCC（本人使用的是centos6.5、6.4版本，Gcc升级为4.8.1）。
+
+	同样需要安装QtCreator软件，用于编译此工具，QT工具需要在GCC4.7版本之上运行，所以需要升级GCC（本人使用的是centos6.5、6.4版本，Gcc升级为4.8.1）。
+	
 	以下是GCC升级的步骤：
 	Installing Qt 5.1.1 on CentOS 6.4（官网安装方式）目前测试使用的GCC 4.8.1版本
 	1.Install Development Tools
